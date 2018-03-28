@@ -3,7 +3,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7070/eureka/
 server:
-  port:  8011
+  port: 8766
 spring:
   application:
-    name: hello-service
+    name: service-feign
